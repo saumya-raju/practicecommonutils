@@ -1,0 +1,7 @@
+---
+applications:
+- name: na20082818_producer
+  path: target/producer-0.0.1.jar
+  buildpack: java_buildpack_offline
+  services:
+   - rabbitmq
